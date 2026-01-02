@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+  color: brown;
+  font-style: oblique;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+#label {
+  font-style: oblique;
+  color: brown;
+}
+
+#number {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#button {
+  padding: 6px 10px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#diceContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.dice {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+#result {
+  text-align: center;
+  font-size: 1.2em;
+  color: darkred;
+}
+.dice {
+  width: 100px;       /* sets the width of each dice */
+  height: 100px;      /* sets the height equal for all */
+  object-fit: contain; /* keeps the image ratio correct */
+  margin: 10px;
+}
